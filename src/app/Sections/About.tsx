@@ -44,7 +44,7 @@ const About = () => {
                             <Image
                                 src={aboutimg2}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto brightness-[1.4]"
+                                className="object-cover rounded w-full h-auto brightness-[1.5]"
                                 priority={true}
                             />
                         </div >
@@ -52,7 +52,7 @@ const About = () => {
                             <Image
                                 src={aboutimg}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto brightness-[1.4] "
+                                className="object-cover rounded w-full h-auto brightness-[1.5] "
                                 priority={true}
                             />
                         </div>
@@ -60,7 +60,7 @@ const About = () => {
                             <Image
                                 src={aboutimg3}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto brightness-[1.4]"
+                                className="object-cover rounded w-full h-auto brightness-[1.5]"
                                 priority={true}
                             />
                         </div>
