@@ -82,7 +82,6 @@ const Header = ({ hideMenu = false }) => {
                             width={200}
                             height={50}
                         />
-
                     </Link>
                 </div>
                 {/* {!hideMenu && (
@@ -139,7 +138,7 @@ const Header = ({ hideMenu = false }) => {
                     <div
                         ref={menuRef}
                         className={`fixed -top-4 -right-3 w-3/4 min-h-screen bg-[#080a11] p-6 transform z-10 transition-transform duration-100 ease-in-out backdrop-blur md:hidden`}
-                        data-aos="fade-left"  >
+                        data-aos="fade-left" >
                         <Link className='items-center gap-1 sm:gap-2 ' href="/">
                             <Image
                                 className="w-16  h-auto ml-2 mt-2  mb-4"

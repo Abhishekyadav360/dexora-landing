@@ -26,7 +26,7 @@ const About = () => {
                 <Image
                     src={logo}
                     alt="aboutimg-icon"
-                    className="object-cover rounded w-full h-auto absolute -top-0 right-20 max-w-80 z-0 transform hidden lg:block brightness-[0.8]"
+                    className="object-cover rounded w-full h-auto absolute -top-0 right-20 max-w-80 z-0 transform hidden lg:block brightness-[1]"
                     priority={true} data-aos="fade-down"
                 />
                 <div className='max-w-3xl'>
@@ -44,7 +44,7 @@ const About = () => {
                             <Image
                                 src={aboutimg2}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto"
+                                className="object-cover rounded w-full h-auto brightness-[1.4]"
                                 priority={true}
                             />
                         </div >
@@ -52,7 +52,7 @@ const About = () => {
                             <Image
                                 src={aboutimg}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto "
+                                className="object-cover rounded w-full h-auto brightness-[1.4] "
                                 priority={true}
                             />
                         </div>
@@ -60,7 +60,7 @@ const About = () => {
                             <Image
                                 src={aboutimg3}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto"
+                                className="object-cover rounded w-full h-auto brightness-[1.4]"
                                 priority={true}
                             />
                         </div>

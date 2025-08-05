@@ -110,7 +110,7 @@ const Tokenomics = () => {
                                         <Image
                                             src={tokenomics}
                                             alt="astronaut"
-                                            className="w-full h-auto mx-auto "
+                                            className="w-full h-auto mx-auto brightness-[1.6]"
                                         />
                                     </div>
                                 </div>
