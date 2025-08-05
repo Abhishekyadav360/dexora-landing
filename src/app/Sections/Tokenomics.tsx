@@ -79,7 +79,7 @@ const Tokenomics = () => {
                         <div className="w-full mx-auto text-center relative" data-aos="fade-up">
                             <div className="grid grid-cols-1  mt-5 gap-y-6 gap-x-6 mx-auto ">
                                 <div className=' max-w-md  mx-auto backdrop-blur-lg border border-[#ffffff41] rounded-xl flex flex-col items-center justify-center text-center p-4 ftrncard mb-5'>
-                                    <h4 className="text-2xl ">Contract Address</h4>
+                                    <h4 className="text-xl sm:text-2xl ">Contract Address</h4>
                             <div className="flex items-center justify-center gap-2 mt-1 text-gray-300">
                                 <span className="flex items-center gap-1">
                                     {truncateAddress(contractAddress)}

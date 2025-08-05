@@ -4,7 +4,7 @@ import { motion, useAnimation } from 'framer-motion'
 import Link from 'next/link'
 
 const Marquee = ({
-  text = 'Join Dexora Now — Trade  •  Click to Join  •  EARN  •  Click to Join  •  Play  •  Earn with $DORA!  •',
+  text = 'Join Dexora Now — Trade  •  Click to Join  •  EARN  •  Play  •  Earn with $DORA!  •',
   speed = 100,
 }: {
   text?: string
