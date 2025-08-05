@@ -8,6 +8,8 @@ import iconPolygon from '@/Assets/images/polygon.webp';
 import iconSecure from '@/Assets/images/smartc.webp';
 import iconGlobal from '@/Assets/images/global.webp';
 
+
+
 const container = {
     hidden: {},
     visible: {
@@ -116,9 +118,9 @@ const WhyDexora = () => {
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    
+
                     <p className="text-lg text-gray-300 mt-2">
-                       Staking Rewards for Token Holders  </p>
+                        Staking Rewards for Token Holders  </p>
                 </motion.div>
 
 
