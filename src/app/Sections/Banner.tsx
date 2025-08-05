@@ -30,7 +30,7 @@ const Banner = () => {
                 className="relative pt-[300px] pb-[200px]  sm:pb-[300px]  overflow-hidden flex items-center justify-center"
             >
                 <div
-                    className="absolute top-40 -left-16 sm:-left-20 z-10 max-w-32 sm:max-w-44"
+                    className="absolute top-40 -left-10 sm:-left-20 z-10 max-w-32 sm:max-w-44"
                     data-aos="fade-right"
                     data-aos-duration="2500"
                 >
