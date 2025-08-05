@@ -43,8 +43,8 @@ const Marquee = ({
 
   return (
     <Link href='/Comingsoon' passHref>
-      <div className="w-full overflow-hidden relative h-full sm:min-h-[250px] py-4 max-w-7xl mx-auto border-2 border-[#1C1C1C] rounded-xl backdrop-blur-sm bg-white/5 cursor-pointer group flex items-center ">
-        <p className="absolute left-1/2 top-4 transform -translate-x-1/2 text-center text-white/80 text-sm sm:text-lg">
+      <div className="w-full overflow-hidden relative h-full  sm:min-h-[250px] py-8 sm:py-4 max-w-7xl mx-auto border-2 border-[#1C1C1C] rounded-xl backdrop-blur-sm bg-white/5 cursor-pointer group flex items-center ">
+        <p className="absolute left-1/2 top-2 sm:top-4 transform -translate-x-1/2 text-center text-white/80 text-sm sm:text-lg">
          ( Click to Join )
         </p>
         <motion.div
