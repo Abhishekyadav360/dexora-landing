@@ -13,7 +13,7 @@
                         src={ftrbg}
                         alt="aboutimg-icon"
                         className=" w-full h-full absolute top-0 left-0 right-0 bottom-0  -z-10 rounded-xl"
-                        priority={false}
+                        priority={true}
                     />
 
                 <div className=" flex items-center justify-center p-1  rounded-xl     w-fit h-fit">

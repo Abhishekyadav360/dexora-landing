@@ -27,7 +27,7 @@ const About = () => {
                     src={logo}
                     alt="aboutimg-icon"
                     className="object-cover rounded w-full h-auto absolute -top-0 right-20 max-w-80 z-0 transform hidden lg:block brightness-[0.8]"
-                    priority={false} data-aos="fade-down"
+                    priority={true} data-aos="fade-down"
                 />
                 <div className='max-w-3xl'>
                     <Title
@@ -45,7 +45,7 @@ const About = () => {
                                 src={aboutimg2}
                                 alt="aboutimg-icon"
                                 className="object-cover rounded w-full h-auto"
-                                priority={false}
+                                priority={true}
                             />
                         </div >
                         <div className="max-w-60 relative mx-auto md:mx-0 mt-2.5 sm:mt-0" data-aos="fade-up" data-aos-duration="2000">
@@ -53,7 +53,7 @@ const About = () => {
                                 src={aboutimg}
                                 alt="aboutimg-icon"
                                 className="object-cover rounded w-full h-auto "
-                                priority={false}
+                                priority={true}
                             />
                         </div>
                         <div className="max-w-60 relative mx-auto md:mx-0 mt-2.5 sm:mt-0" data-aos="fade-up" data-aos-duration="2400">
@@ -61,7 +61,7 @@ const About = () => {
                                 src={aboutimg3}
                                 alt="aboutimg-icon"
                                 className="object-cover rounded w-full h-auto"
-                                priority={false}
+                                priority={true}
                             />
                         </div>
                     </div>

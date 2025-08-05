@@ -38,7 +38,7 @@ const Banner = () => {
                         src={bnr1}
                         alt="left-icon"
                         className="object-cover rounded w-full h-auto infinite-rotate"
-                        priority={false}
+                        priority={true}
                     />
                 </div>
 
@@ -52,7 +52,7 @@ const Banner = () => {
                         src={bnr2}
                         alt="middle-icon"
                         className="object-cover rounded w-full h-auto infinite-rotate"
-                        priority={false}
+                        priority={true}
                     />
                 </div>
 
@@ -66,7 +66,7 @@ const Banner = () => {
                         src={bnr3}
                         alt="right-icon"
                         className="object-cover rounded w-full h-auto infinite-rotate"
-                        priority={false}
+                        priority={true}
                     />
                 </div>
                 <video

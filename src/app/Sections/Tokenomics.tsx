@@ -35,7 +35,7 @@ const Tokenomics = () => {
                         src={gt1}
                         alt="left-icon"
                         className="object-cover rounded w-full h-auto transform  rotate-90 "
-                        priority={false}
+                        priority={true}
                     />
                 </div>
                 <div
@@ -47,7 +47,7 @@ const Tokenomics = () => {
                         src={gt1}
                         alt="left-icon"
                         className="object-cover rounded w-full h-auto transform rotate-180 "
-                        priority={false}
+                        priority={true}
                     />
                 </div>
                 <div
@@ -59,7 +59,7 @@ const Tokenomics = () => {
                         src={gt2}
                         alt="right-icon"
                         className="object-cover rounded w-full h-auto"
-                        priority={false}
+                        priority={true}
                     />
                 </div>
                 <div className="bg-[#a9d8ff]/20  w-96 h-96 max-sm:-left-72 absolute max-sm:top-14 max-sm:-translate-y-0 top-1/2 -translate-y-3/4 -left-40 rounded-full blur-3xl z-[9999] opacity-70 sm:opacity-100" />
