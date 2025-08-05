@@ -46,7 +46,7 @@ const GetStarted = () => {
         </div>
 
         <div
-          className="absolute  sm:top-20 -right-5 z-10 max-w-28 sm:max-w-36 rotate-[120deg] opacity-40 sm:opacity-55"
+          className="absolute  sm:top-20 -right-5 z-10 max-w-28 sm:max-w-36 rotate-[120deg] opacity-40 sm:opacity-55 brightness-50 sm:brightness-100"
           data-aos="fade-left"
           data-aos-duration="2500"
         >
@@ -66,7 +66,7 @@ const GetStarted = () => {
             loop
             muted
             playsInline
-            className="object-cover object-center opacity-70 saturate-[0.3] max-w-7xl w-full h-auto"
+            className="object-cover object-center opacity-70 saturate-[0.3] max-w-7xl w-full h-full sm:h-auto"
           >
             <source src="/video/video_1.webm" type="video/webm" />
             Your browser does not support the video tag.
