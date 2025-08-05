@@ -11,7 +11,7 @@ export const Loader = ({ className = "" }: { className?: string }) => {
       <div className="loader"></div>
 
       {/* Text */}
-      <div className="text-white text-xl sm:text-2xl md:text-3xl font-semibold tracking-wide">
+      <div className="text-white text-xl sm:text-2xl md:text-3xl font-semibold tracking-wide fr-fnt">
         Entering Dexora...
       </div>
     </div>
