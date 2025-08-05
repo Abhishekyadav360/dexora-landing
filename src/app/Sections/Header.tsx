@@ -73,7 +73,6 @@ const Header = ({ hideMenu = false }) => {
     return (
         <header className="fixed w-full  z-50 text-white bg-[#2e312f00]  border-b border-[#a4baac23] py-1 backdrop-blur-[2px] mt-[-5px] md:mt-0 ">
             <div className={`container px-4  mx-auto flex items-center justify-between py-4 transition-all duration-300  res-navbg `} data-aos="fade-down">
-
                 <div className=' text-base sm:text-2xl font-semibold'>
                     <Link className='items-center gap-1 sm:gap-2' href="/">
                         <Image
