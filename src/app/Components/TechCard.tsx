@@ -5,7 +5,7 @@ import Image from 'next/image';
 const TechCard = ({ index, title, icon }) => {
   const shiftX = index * -60;
   const shiftY = index * -20;
-  const tilt = -12; 
+  const tilt = -12;
 
   return (
     <motion.div

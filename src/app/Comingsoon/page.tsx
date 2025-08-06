@@ -34,7 +34,7 @@ const Comingsoon = () => {
                 <div className="container mx-auto px-4">
                     <div className=' flex items-center justify-center'>
                         <div className=" w-full  mx-auto text-center  relative innerbox" data-aos="fade-up">
-                            <Image src={bnrimg} alt='about-image' priority={true} width={300} height={300} className='w-full h-auto  max-w-32 mx-auto animate-up-down ' />
+                            <Image src={bnrimg} alt='about-image' priority={true} width={300} height={300} className='w-full mb-2 h-auto max-w-20 sm:max-w-32 mx-auto animate-up-down ' />
                             {/* <p className=' mb-8 inline-block rounded-lg px-3 py-0.5 font-semibold leading-[100%]  bg-[#97ffcb] text-black text-span-green '>AI PIPMASTER</p> */}
                             <h1 className="text-5xl md:text-[120px] font-bold  break-words leading-snug sm:leading-none " >
                                 <span className='t'>Coming Soon...</span>
