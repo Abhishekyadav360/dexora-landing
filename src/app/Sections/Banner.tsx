@@ -79,7 +79,6 @@ const Banner = () => {
                     <source src='/video/bnr.webm' type="video/webm" />
                     Your browser does not support the video tag.
                 </video>
-             
     <video
         autoPlay
         loop
