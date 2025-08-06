@@ -66,9 +66,9 @@ const GetStarted = () => {
             loop
             muted
             playsInline
-            className="object-cover object-center opacity-70 saturate-[0.3] max-w-7xl w-full h-full sm:h-auto"
+            className="object-cover object-center  saturate-[0.2] max-w-7xl w-full h-full sm:h-auto"
           >
-            <source src="/video/video_1.webm" type="video/webm" />
+            <source src="/video/video_1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

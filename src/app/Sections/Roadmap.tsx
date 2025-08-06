@@ -79,7 +79,7 @@ const RoadmapSection = () => {
               loop
               muted
               playsInline
-              className="w-full h-full object-center max-w-lg grayscale rounded-xl"
+              className="w-full h-full object-center max-w-lg grayscale  rounded-xl"
             >
               <source src="/video/roadmap.webm" type="video/webm" />
               Your browser does not support the video tag.

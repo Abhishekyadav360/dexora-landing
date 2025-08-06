@@ -5,7 +5,7 @@ import React from 'react';
 const FeatureNCard = ({ title, description,  className = '', ...props }) => {
     return (
         <div
-            className={`relative px-8 py-10 bg-[#111417] rounded-xl ${className}`}
+            className={`relative px-8 py-10 bg-[#111417] rounded-xl border border-[#ffffff20] ${className}`}
             {...props}
         >
             <div>

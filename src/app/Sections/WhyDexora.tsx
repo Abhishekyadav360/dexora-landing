@@ -3,10 +3,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import why1 from '@/Assets/images/why6.webp';
-import why2 from '@/Assets/images/vgame.webp';
+import why2 from '@/Assets/images/game.webp';
 import iconPolygon from '@/Assets/images/polygon.webp';
-import iconSecure from '@/Assets/images/smartc.webp';
-import iconGlobal from '@/Assets/images/global.webp';
+import iconSecure from '@/Assets/images/real.webp';
+import iconGlobal from '@/Assets/images/earth.webp';
 
 
 
@@ -92,7 +92,7 @@ const WhyDexora = () => {
                             alt="Polygon Icon"
                             width={48}
                             height={48}
-                            className="object-contain w-12 h-12"
+                            className="object-contain w-12 h-12 brightness-[1.5]"
                         />
                     }
                 />
@@ -112,9 +112,9 @@ const WhyDexora = () => {
                             loop
                             muted
                             playsInline
-                            className="w-full h-full object-center max-w-lg grayscale rounded-xl"
+                            className="w-full h-full object-center max-w-lg brightness-[1.2] rounded-xl"
                         >
-                            <source src="/video/why.mp4" type="video/mp4" />
+                            <source src="/video/why_1.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -135,7 +135,7 @@ const WhyDexora = () => {
                             alt="Secure Icon"
                             width={48}
                             height={48}
-                            className="object-contain w-12 h-12"
+                            className="object-contain w-12 h-12 "
                         />
                     }
                 />
@@ -159,7 +159,7 @@ const WhyDexora = () => {
                             alt="Decentralized Icon"
                             width={270}
                             height={270}
-                            className="object-cover rounded w-full h-auto"
+                            className="object-cover rounded w-full h-auto brightness-[1.5] "
                         />
                     </motion.div>
                 </Card>
@@ -184,7 +184,7 @@ const WhyDexora = () => {
                                     alt="Game Icon"
                                     width={270}
                                     height={270}
-                                    className="object-cover rounded w-full h-auto"
+                                    className="object-cover rounded w-full h-auto "
                                 />
                             </motion.div>
                         }
@@ -201,7 +201,7 @@ const WhyDexora = () => {
                                 alt="Global Icon"
                                 width={48}
                                 height={48}
-                                className="object-contain w-12 h-12"
+                                className="object-contain w-12 h-12 brightness-[1.5]"
                             />
                         }
                     />

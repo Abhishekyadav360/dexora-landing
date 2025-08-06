@@ -3,7 +3,7 @@ import React from 'react';
 
 const RoadmapCard = ({ title, subtitle, points = [], className = '' }) => {
     return (
-        <div className={`relative px-8 py-10 bg-[#111417] rounded-xl ${className}`}>
+        <div className={`relative px-8 py-10 bg-[#111417] rounded-xl  ${className}`}>
 
             <h3 className="text-white text-2xl font-semibold !leading-[1.2]">{title}</h3>
 

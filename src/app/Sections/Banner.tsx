@@ -44,7 +44,7 @@ const Banner = () => {
 
                
                 <div
-                    className="absolute top-[330px] sm:top-[390px] right-[26%] sm:right-[32%] z-10 max-w-12 sm:max-w-16"
+                    className="absolute top-[330px] sm:top-[200px] right-[26%] sm:right-[22%] z-10 max-w-12 sm:max-w-16"
                     data-aos="fade-left"
                     data-aos-duration="2500"
                 >
@@ -79,9 +79,21 @@ const Banner = () => {
                     <source src='/video/bnr.webm' type="video/webm" />
                     Your browser does not support the video tag.
                 </video>
+             
+    <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute -top-16 left-1/2 -translate-x-1/2 max-w-xs w-full h-full object-contain object-center brightness-[0.3] mix-blend-exclusion z-0"
+    >
+        <source src='/video/logo.mp4' type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
 
                 <div className="container mx-auto px-4">
-                    <div className='w-full text-center lg:text-center relative  sm:mt-12' data-aos="fade-up">
+                    <div className='w-full text-center lg:text-center relative  sm:mt-20' data-aos="fade-up">
                         <h1 className="text-5xl md:text-5xl xl:text-[120px] text-left font-bold leading-snug sm:leading-none">
                             Crypto Journey
                         </h1>
@@ -91,8 +103,6 @@ const Banner = () => {
                         <p className="text-md md:text-xl mx-auto mt-2 sm:mt-4 bnr-desc text-white text-end max-w-5xl">
                             The decentralized exchange where trading meets gameplay. Powered by $DORA.
                         </p>
-                       
-                            
                     </div>
                 </div>
             </section>

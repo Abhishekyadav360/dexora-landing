@@ -53,9 +53,9 @@ function Faq() {
                             loop
                             muted
                             playsInline
-                            className="w-full h-full object-center max-w-2xl grayscale "
+                            className="w-full h-full object-center max-w-2xl brightness-[1.4] "
                         >
-                            <source src="/video/home.webm" type="video/webm" />
+                            <source src="/video/Home-New.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>

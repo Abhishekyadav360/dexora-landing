@@ -7,7 +7,7 @@ import ftrbg from '@/Assets/images/dexbgftop.webp';
 const FeatureCard2 = ({ title, description, iconClassName, icon, ...props }) => {
     return (
         // <div className="relative px-4 pt-4 pb-6 bg-[#1b1f319c] rounded-t-xl  backdrop-blur min-h-64 ">
-        <div className="relative px-8  py-10  bg-[#111417]  backdrop-blur min-h-64 rounded-xl"
+        <div className="relative px-8  py-10  bg-[#111417]  backdrop-blur min-h-64 rounded-xl border border-[#ffffff20]"
         {...props} >
  <Image
                     src={ftrbg}

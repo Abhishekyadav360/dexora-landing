@@ -6,7 +6,7 @@
 
 const FeatureCard = ({ title, description, iconClassName, icon, ...props }) => {
     return (
-        <div className="relative px-8 py-10 bg-[#111417] backdrop-blur min-h-64 rounded-xl" {...props}>
+        <div className="relative px-8 py-10 bg-[#111417] backdrop-blur min-h-64 rounded-xl border border-[#ffffff20]" {...props}>
             <Image
                 src={ftrbg}
                 alt="aboutimg-icon"
