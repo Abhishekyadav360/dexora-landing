@@ -30,7 +30,7 @@ const Banner = () => {
                 className="relative pt-[300px] pb-[200px]  sm:pb-[300px]  overflow-hidden flex items-center justify-center"
             >
                 <div
-                    className="absolute top-40 -left-16 sm:-left-20 z-10 max-w-32 sm:max-w-44"
+                    className="absolute top-36 sm:top-40 -left-16 sm:-left-20 z-10 max-w-28 sm:max-w-44"
                     data-aos="fade-right"
                     data-aos-duration="2500"
                 >
@@ -44,7 +44,7 @@ const Banner = () => {
 
                
                 <div
-                    className="absolute top-[400px] sm:top-[200px] right-[56%] sm:right-[22%] z-10 max-w-12 sm:max-w-16"
+                    className="absolute top-[400px] sm:top-[200px] right-[56%] sm:right-[22%] z-10 max-w-0 sm:max-w-16"
                     data-aos="fade-left"
                     data-aos-duration="2500"
                 >
@@ -85,7 +85,7 @@ const Banner = () => {
         loop
         muted
         playsInline
-        className="absolute -top-20 sm:-top-16 left-1/2 -translate-x-1/2 max-w-52 sm:max-w-xs w-full h-full object-contain object-center brightness-[0.3] mix-blend-exclusion z-0"
+        className="absolute -top-12 sm:-top-16 left-1/2 -translate-x-1/2 max-w-52 sm:max-w-xs w-full h-full object-contain object-center brightness-[0.3] mix-blend-exclusion z-0"
     >
         <source src='/video/logo.mp4' type="video/mp4" />
         Your browser does not support the video tag.
