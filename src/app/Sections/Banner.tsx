@@ -44,7 +44,7 @@ const Banner = () => {
 
                
                 <div
-                    className="absolute top-[400px] sm:top-[200px] right-[56%] sm:right-[22%] z-10 max-w-0 sm:max-w-16"
+                    className="absolute top-[410px] sm:top-[200px] right-[60%] sm:right-[22%] z-10 max-w-10 sm:max-w-16"
                     data-aos="fade-left"
                     data-aos-duration="2500"
                 >
