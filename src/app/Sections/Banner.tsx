@@ -42,7 +42,7 @@ const Banner = () => {
                     />
                 </div>
 
-               
+
                 <div
                     className="absolute top-[410px] sm:top-[200px] right-[60%] sm:right-[22%] z-10 max-w-10 sm:max-w-16"
                     data-aos="fade-left"
@@ -55,8 +55,6 @@ const Banner = () => {
                         priority={true}
                     />
                 </div>
-
-               
                 <div
                     className="absolute bottom-4 sm:bottom-20 -right-5 z-10 max-w-28 sm:max-w-44 rotate-[120deg]"
                     data-aos="fade-left"
@@ -79,18 +77,16 @@ const Banner = () => {
                     <source src='/video/bnr.webm' type="video/webm" />
                     Your browser does not support the video tag.
                 </video>
-    <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute -top-12 sm:-top-16 left-1/2 -translate-x-1/2 max-w-52 sm:max-w-xs w-full h-full object-contain object-center brightness-[0.3] mix-blend-exclusion z-0"
-    >
-        <source src='/video/logo.mp4' type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-
-
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute -top-12 sm:-top-16 left-1/2 -translate-x-1/2 max-w-52 sm:max-w-xs w-full h-full object-contain object-center brightness-[0.3] mix-blend-exclusion z-0"
+                >
+                    <source src='/video/logo.mp4' type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
                 <div className="container mx-auto px-4">
                     <div className='w-full text-center lg:text-center relative  sm:mt-20' data-aos="fade-up">
                         <h1 className="text-5xl md:text-5xl xl:text-[120px] text-left font-bold leading-snug sm:leading-none">
