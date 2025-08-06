@@ -51,7 +51,7 @@ const Tokenomics = () => {
                     />
                 </div>
                 <div
-                    className="absolute  sm:top-20 -right-5 z-0 max-w-28 sm:max-w-36 rotate-[120deg] opacity-10 sm:opacity-55 brightness-50"
+                    className="absolute  sm:top-20 -right-5 z-0 max-w-28 sm:max-w-36 rotate-[120deg] opacity-10 sm:opacity-55 brightness-75 sm:brightness-[1.2]"
                     data-aos="fade-left"
                     data-aos-duration="2500"
                 >

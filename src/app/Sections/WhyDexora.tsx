@@ -159,7 +159,7 @@ const WhyDexora = () => {
                             alt="Decentralized Icon"
                             width={270}
                             height={270}
-                            className="object-cover rounded w-full h-auto brightness-[1.5] "
+                            className="object-cover rounded w-full h-auto brightness-[1.1] "
                         />
                     </motion.div>
                 </Card>
@@ -201,7 +201,7 @@ const WhyDexora = () => {
                                 alt="Global Icon"
                                 width={48}
                                 height={48}
-                                className="object-contain w-12 h-12 brightness-[1.5]"
+                                className="object-contain w-12 h-12 brightness-[1.5] "
                             />
                         }
                     />
