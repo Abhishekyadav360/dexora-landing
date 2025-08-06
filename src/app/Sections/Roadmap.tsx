@@ -63,7 +63,7 @@ const RoadmapSection = () => {
     >
       <div className="container mx-auto px-4 relative" data-aos="fade-up">
         <div className="md:flex gap-10 relative">
-        
+
           <div className="w-full md:w-1/2 md:sticky top-24 h-fit">
             <div className="max-w-3xl">
               <Title
@@ -86,7 +86,7 @@ const RoadmapSection = () => {
             </video>
           </div>
 
-        
+
           <div className="w-full md:w-1/2 space-y-10">
             {roadmapData.map((item, index) => (
               <motion.div

@@ -25,8 +25,8 @@ const Comingsoon = () => {
                     loop
                     muted
                     playsInline
-                    className="fixed top-0 left-0 w-full h-full -z-10 object-contain object-center opacity-40  grayscale ">
-                    <source src='/video/why.mp4' type="video/mp4" />
+                    className="fixed top-0 left-0 w-full h-full -z-10 object-contain object-center brightness-[0.3]  ">
+                    <source src='/video/why_1.mp4' type="video/mp4" />
 
                     Your browser does not support the video tag.
                 </video>
