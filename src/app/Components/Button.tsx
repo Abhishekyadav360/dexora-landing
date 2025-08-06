@@ -31,10 +31,10 @@ const Button: React.FC<ButtonProps> = ({
 
   const animatedClass = classNames(
     `group relative px-4 py-3 rounded-2xl backdrop-blur-xl border-2 border-blue-200/30 min-w-32
-     bg-gradient-to-br from-blue-300/40 via-black-900/60 to-black/80 shadow-2xl
-     hover:shadow-blue-300/30 hover:shadow-2xl hover:scale-[1.02] hover:-translate-y-1
+     bg-gradient-to-br from-blue-200/40 via-black-900/60 to-black/80 shadow-2xl
+     hover:shadow-blue-100/30 hover:shadow-2xl hover:scale-[1.02] hover:-translate-y-1
      active:scale-95 transition-all duration-500 ease-out cursor-pointer
-     hover:border-blue-400/60 overflow-hidden`,
+     hover:border-blue-100/60 overflow-hidden`,
     className
   );
 
@@ -57,7 +57,7 @@ const Button: React.FC<ButtonProps> = ({
      
       <div className="relative z-10 flex items-center justify-center gap-1">
         <div className="flex text-center justify-center">
-          <p className="text-blue-100 font-bold text-lg group-hover:text-blue-100 transition-colors duration-300 drop-shadow-sm">
+          <p className="text-white font-bold text-lg group-hover:text-white transition-colors duration-300 drop-shadow-sm">
             {children}
           </p>
         </div>
