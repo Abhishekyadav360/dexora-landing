@@ -19,12 +19,9 @@ const TechCard = ({ index, title, icon }) => {
         zIndex: 10 - index,
       }}
     >
-      
       <span className="absolute top-2 left-2 text-xs text-white/40 font-mono">
         [{`0${index + 1}`}]
       </span>
-
-     
       <div className="absolute inset-0 flex items-center justify-center">
         <Image
           src={icon}
@@ -34,8 +31,6 @@ const TechCard = ({ index, title, icon }) => {
           className="opacity-90"
         />
       </div>
-
-     
       <div className="z-10 absolute bottom-4 left-0 right-0 text-center">
         <p className="text-sm font-semibold">{title}</p>
       </div>
