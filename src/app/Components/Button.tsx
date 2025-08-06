@@ -52,12 +52,12 @@ const Button: React.FC<ButtonProps> = ({
   const animatedContent = (
     <>
      
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-400/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
-      <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/10 via-blue-400/20 to-blue-blue/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-200/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-100/10 via-blue-200/20 to-blue-blue/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
      
       <div className="relative z-10 flex items-center justify-center gap-1">
         <div className="flex text-center justify-center">
-          <p className="text-blue-200 font-bold text-lg group-hover:text-blue-200 transition-colors duration-300 drop-shadow-sm">
+          <p className="text-blue-100 font-bold text-lg group-hover:text-blue-100 transition-colors duration-300 drop-shadow-sm">
             {children}
           </p>
         </div>

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import Title from '../Components/Title'
 import Image from 'next/image'
-import tokenomics from '@/Assets/images/dexora-tkn.webp'
+import tokenomics from '@/Assets/images/v4.webp'
 import gt1 from "@/Assets/images/dexgtl.webp";
 import gt2 from "@/Assets/images/dexgtr.webp";
 
@@ -110,7 +110,7 @@ const Tokenomics = () => {
                                         <Image
                                             src={tokenomics}
                                             alt="astronaut"
-                                            className="w-full h-auto mx-auto brightness-[1.6]"
+                                            className="w-full h-auto mx-auto brightness-[1]"
                                         />
                                     </div>
                                 </div>

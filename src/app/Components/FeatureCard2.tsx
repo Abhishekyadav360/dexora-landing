@@ -17,13 +17,13 @@ const FeatureCard2 = ({ title, description, iconClassName, icon, ...props }) => 
                 />
 
             <div className=" flex items-center justify-center p-1  rounded-xl     w-fit h-fit">
-                <div className=" relative max-w-40 sm:max-w-52">
+                <div className="relative max-w-32 sm:max-w-52">
                     <Image
                         src={icon}
                         alt={`${title} icon`}
                         width={270}
                         height={270}
-                        className={`${iconClassName} object-cover rounded w-full h-auto`} 
+                        className={`${iconClassName} object-cover rounded w-full h-auto `} 
                     />
                 </div>
             </div>

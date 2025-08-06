@@ -6,9 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import bnr1 from "@/Assets/images/dexab1.webp";
-import bnr2 from "@/Assets/images/dexab3.webp";
-import bnr3 from "@/Assets/images/dexab3.webp";
+import bnr1 from "@/Assets/images/steelbnr2.webp";
+import bnr2 from "@/Assets/images/steelbnr1.webp";
+import bnr3 from "@/Assets/images/steelbnr1.webp";
 // import Button from '../Components/Button';
 
 

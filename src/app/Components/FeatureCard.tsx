@@ -15,7 +15,7 @@ const FeatureCard = ({ title, description, iconClassName, icon, ...props }) => {
             />
 
             <div className="flex items-center justify-center p-1 rounded-xl w-fit h-fit">
-                <div className="relative max-w-40 sm:max-w-52">
+                <div className="relative max-w-32 sm:max-w-44">
                     <Image
                         src={icon}
                         alt={`${title} icon`}

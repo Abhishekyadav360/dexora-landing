@@ -36,20 +36,22 @@ const Features = () => {
                                 <FeatureCard
                                     title="Decentralized Exchange"
                                     description="On-chain token swaps with full transparency, user control, fast speed, and complete security."
-                                    icon="/images/dexf1.webp" data-aos="fade-right" data-aos-duration="2000"
-                                    iconClassName="brightness-[1.4]"
+                                    icon="/images/dexadex.webp" data-aos="fade-right" data-aos-duration="2000"
+                                    iconClassName="brightness-[1] "
                                 />
-                                    <FeatureCard2
+                                <FeatureCard2
                                     title="$DORA Token"
                                     description="Native token used for staking, rewards, in-game features, platform access, and future governance."
-                                    icon="/images/dexf3.webp" data-aos="fade-up" data-aos-duration="2500"
-                                    iconClassName="brightness-[1.7]"
+                                    icon="/images/coin.webp" data-aos="fade-up" data-aos-duration="2500"
+                                    iconClassName="brightness-[0.9] "
+
                                 />
                                 <FeatureCard
                                     title="Tap Tap Game"
                                     description="A play-to-earn game that rewards speed, skill, timing, fast reaction, and consistent gameplay."
-                                    icon="/images/tattap.webp" data-aos="fade-left" data-aos-duration="2000"
-                                    iconClassName="brightness-[1.9]"
+                                    icon="/images/gameremote1.webp" data-aos="fade-left" data-aos-duration="2000"
+                                    iconClassName="brightness-[1] "
+
                                 />
                                 <FeatureNCard
                                     title="Staking Pools"
@@ -57,7 +59,7 @@ const Features = () => {
                                     className='ftrncard'
                                     data-aos="fade-up"
                                     data-aos-duration="2500"
-                                    
+
                                 />
                                 <FeatureNCard
                                     title="Referral System"

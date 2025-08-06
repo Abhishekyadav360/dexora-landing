@@ -1,10 +1,10 @@
 'use client'
 import React, { useEffect } from 'react';
 import Image from 'next/image'
-import aboutimg from '@/Assets/images/dexa1.webp';
-import aboutimg2 from '@/Assets/images/dexa.webp';
-import aboutimg3 from '@/Assets/images/dexa3.webp';
-import logo from '@/Assets/images/dexorra-coins.webp';
+import aboutimg from '@/Assets/images/steelabt2.webp';
+import aboutimg2 from '@/Assets/images/steelabt.webp';
+import aboutimg3 from '@/Assets/images/steelabt3.webp';
+import logo from '@/Assets/images/dexora-coin.webp';
 import Title from '../Components/Title'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,7 +44,7 @@ const About = () => {
                             <Image
                                 src={aboutimg2}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto brightness-[1.5]"
+                                className="object-cover rounded w-full h-auto brightness-[1.2]"
                                 priority={true}
                             />
                         </div >
@@ -60,7 +60,7 @@ const About = () => {
                             <Image
                                 src={aboutimg3}
                                 alt="aboutimg-icon"
-                                className="object-cover rounded w-full h-auto brightness-[1.5]"
+                                className="object-cover rounded w-full h-auto brightness-[1.6]"
                                 priority={true}
                             />
                         </div>
