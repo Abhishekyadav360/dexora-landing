@@ -54,7 +54,6 @@ const Button: React.FC<ButtonProps> = ({
      
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-200/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-100/10 via-blue-200/20 to-blue-blue/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-     
       <div className="relative z-10 flex items-center justify-center gap-1">
         <div className="flex text-center justify-center">
           <p className="text-white font-bold text-lg group-hover:text-white transition-colors duration-300 drop-shadow-sm">
@@ -79,13 +78,11 @@ const Button: React.FC<ButtonProps> = ({
       </div>
     </>
   );
-
   const defaultContent = (
     <span className="button-content">
       {children}
     </span>
   );
-
   const content = isAnimated ? animatedContent : defaultContent;
 
   if (href) {
