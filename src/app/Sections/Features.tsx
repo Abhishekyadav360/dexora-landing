@@ -62,8 +62,8 @@ const Features = () => {
 
                                 />
                                 <FeatureNCard
-                                    title="Referral System"
-                                    description="Grow the network organically and earn generous referral bonuses through successful invites."
+                                    title="Secure Wallet Integration"
+                                    description="Connect seamlessly with popular wallets to trade, stake, and play without compromising security."
                                     className='ftrncard2'
                                     data-aos="fade-up"
                                     data-aos-duration="2500"

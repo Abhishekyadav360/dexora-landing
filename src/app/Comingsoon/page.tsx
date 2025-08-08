@@ -19,18 +19,16 @@ const Comingsoon = () => {
     }, []);
     return (
         <>
-            <section className="bannerMain relative   py-44 sm:py-72">
-               <video
+            <section className="bannerMain relative py-44 sm:py-72">
+                <video
                     autoPlay
                     loop
                     muted
                     playsInline
                     className="fixed top-0 left-0 w-full h-full -z-10 object-contain object-center brightness-[0.3]  ">
                     <source src='/video/why_1.mp4' type="video/mp4" />
-
                     Your browser does not support the video tag.
                 </video>
-               
                 <div className="container mx-auto px-4">
                     <div className=' flex items-center justify-center'>
                         <div className=" w-full  mx-auto text-center  relative innerbox" data-aos="fade-up">
