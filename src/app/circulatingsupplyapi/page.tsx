@@ -5,7 +5,7 @@ import React from 'react';
 
 
 
-const circulatingsupply = () => {
+export default function circulatingsupplyapi(){
 
     return (
         <>
@@ -14,7 +14,7 @@ const circulatingsupply = () => {
                 <div className="pl-4 pt-4">
 
                     <p className='text-lg'>
-                       210000
+                       23,501,272.308142
                     </p>
                 </div>
 
@@ -23,4 +23,4 @@ const circulatingsupply = () => {
     );
 };
 
-export default circulatingsupply;
+

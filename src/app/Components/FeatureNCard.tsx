@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 
-
 const FeatureNCard = ({ title, description,  className = '', ...props }) => {
     return (
         <div
@@ -9,11 +8,11 @@ const FeatureNCard = ({ title, description,  className = '', ...props }) => {
             {...props}
         >
             <div>
-                <h3 className="text-white text-2xl mt-6 text-left">{title}</h3>
+                <h3 className="text-white text-2xl sm:mt-4 text-left">{title}</h3>
                 <p className="text-stone-300 text-lg mt-4 text-left">{description}</p>
             </div>
         </div>
     );
-};
+};                             
 
 export default FeatureNCard;

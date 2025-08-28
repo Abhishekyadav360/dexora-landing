@@ -72,11 +72,10 @@ const About = () => {
                         <p className='text-left mt-2 bnr-desc text-lg sm:text-xl'>
                             Dexora gives users full control over their funds while turning DeFi into something engaging and rewarding.
                         </p>
-                        <div className=' mt-4 flex gap-3' >
-                        <Button variant="animated">Tap Tap Game</Button>
-                        <Button variant="animated">Visit Dex</Button>
-                        {/* <Button variant="animated">Whitepaper</Button> */}
-
+                        <div className=' mt-4 flex flex-wrap gap-3' >
+                        <Button href='https://docs.dexora.finance/' target='_blank' variant="animated">Whitepaper</Button>
+                        <Button href='#' target='_blank' variant="animated">Visit Dex</Button>
+                        <Button href='https://tapaura.dexora.finance/' target='_blank' variant="animated">Tap Tap Game</Button>
                         </div>
                     </div>
                 </div>

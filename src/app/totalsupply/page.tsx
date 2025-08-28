@@ -9,11 +9,11 @@ const totalsupply = () => {
 
     return (
         <>
-            <section className="bannerMain relative  min-h-[100vh] bg-stone-800">
+            <section className="bannerMain relative  min-h-[100vh] bg-black">
 
                 <div className="pl-4 pt-4">
 
-                    <p className='text-xl'>
+                    <p className='text-lg'>
                         210000000
                     </p>
                 </div>

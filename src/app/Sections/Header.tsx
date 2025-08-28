@@ -103,12 +103,12 @@ const Header = ({ hideMenu = false }) => {
                     </div> */}
                    {!hideMenu && (
                 <nav className="hidden md:flex space-x-2 lg:space-x-6 p-2 rounded-full nav-bg text-lg md:text-xl">
-                    <Link href="#about" className="px-4 py-2 hover:text-[#606ff5] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'about')}>About</Link>
-                    <Link href="#Features" className="px-4 py-2 hover:text-[#606ff5] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'Features')}>Features</Link>
+                    <Link href="#about" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'about')}>About</Link>
+                    <Link href="#Features" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'Features')}>Features</Link>
 
-                    <Link href="#roadmap" className="px-4 py-2 hover:text-[#606ff5] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'roadmap')}>Roadmap</Link>
-                     <Link href="#tokenomics" className="px-4 py-2 hover:text-[#606ff5] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'tokenomics')}>Tokenomics</Link>
-                    <Link href="#faq" className="px-4 py-2 hover:text-[#606ff5] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'faq')}>FAQ&apos;s</Link>
+                    <Link href="#roadmap" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'roadmap')}>Roadmap</Link>
+                     <Link href="#tokenomics" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'tokenomics')}>Tokenomics</Link>
+                    <Link href="#faq" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'faq')}>FAQ&apos;s</Link>
                 </nav>
                 )}
                     <button
