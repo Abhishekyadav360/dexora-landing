@@ -74,7 +74,7 @@ const Tokenomics = () => {
                     </div>
                     <div className='lg:flex lg:items-center gap-2'>
                         <div className="w-full mx-auto text-center relative" data-aos="fade-up">
-                            <div className="grid grid-cols-1  mt-5 gap-y-6 gap-x-6 mx-auto ">
+                            <div className="grid grid-cols-1  mt-5 gap-y-6 gap-x-3 mx-auto ">
                                 <div>
                                     <div className='max-w-sm sm:max-w-3xl mx-auto' data-aos="fade-up">
                                         <Image

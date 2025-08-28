@@ -73,9 +73,9 @@ const About = () => {
                             Dexora gives users full control over their funds while turning DeFi into something engaging and rewarding.
                         </p>
                         <div className=' mt-4 flex flex-wrap gap-3' >
-                        <Button href='https://docs.dexora.finance/' target='_blank' variant="animated">Whitepaper</Button>
-                        <Button href='#' target='_blank' variant="animated">Visit Dex</Button>
-                        <Button href='https://tapaura.dexora.finance/' target='_blank' variant="animated">Tap Tap Game</Button>
+                            <Button href='https://docs.dexora.finance/' target='_blank' variant="animated">Whitepaper</Button>
+                            <Button href='/' target='_blank' variant="animated">Visit Dex</Button>
+                            <Button href='https://tapaura.dexora.finance/' target='_blank' variant="animated">Tap Tap Game</Button>
                         </div>
                     </div>
                 </div>
