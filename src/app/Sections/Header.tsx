@@ -94,46 +94,48 @@ const Header = ({ hideMenu = false }) => {
                 </nav>
                 )} */}
                 {!hideMenu && (
-                <div className="flex items-center gap-4">
-                
-                    {/* <div className='hidden md:block'>
+                    <div className="flex items-center gap-4">
+
+                        {/* <div className='hidden md:block'>
                         <Button variant="primary" href='/Comingsoon'>
                             Login ➜
                         </Button>
                     </div> */}
-                   {!hideMenu && (
-                <nav className="hidden md:flex space-x-2 lg:space-x-6 p-2 rounded-full nav-bg text-lg md:text-xl">
-                    <Link href="#about" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'about')}>About</Link>
-                    <Link href="#Features" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'Features')}>Features</Link>
+                        {!hideMenu && (
+                            <nav className="hidden md:flex space-x-2 lg:space-x-6 p-2 rounded-full nav-bg text-lg md:text-xl">
+                                <Link href="https://docs.dexora.finance/" target='_blank' className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" >Whitepaper</Link>
 
-                    <Link href="#roadmap" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'roadmap')}>Roadmap</Link>
-                     <Link href="#tokenomics" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'tokenomics')}>Tokenomics</Link>
-                    <Link href="#faq" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'faq')}>FAQ&apos;s</Link>
-                </nav>
-                )}
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        className="md:hidden focus:outline-none pr-3"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            aria-hidden="true"
-                            data-slot="icon"
-                            className='max-w-10'
-                            color="var(--token-06f080bb-b416-40bd-9e82-3f6cb518c925, rgb(255, 255, 255))"
-                            style={{ width: "100%", height: "100%" }}
+                                <Link href="#about" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'about')}>About</Link>
+                                <Link href="#Features" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'Features')}>Features</Link>
+
+                                <Link href="#roadmap" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'roadmap')}>Roadmap</Link>
+                                <Link href="#tokenomics" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'tokenomics')}>Tokenomics</Link>
+                                <Link href="#faq" className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" onClick={(e) => handleScroll(e, 'faq')}>FAQ&apos;s</Link>
+                            </nav>
+                        )}
+                        <button
+                            onClick={() => setIsOpen(!isOpen)}
+                            className="md:hidden focus:outline-none pr-3"
                         >
-                            <path
-                                fillRule="evenodd"
-                                d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
-                                clipRule="evenodd"
-                            />
-                        </svg>
-                    </button>
-                </div>
-                    )}
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                data-slot="icon"
+                                className='max-w-10'
+                                color="var(--token-06f080bb-b416-40bd-9e82-3f6cb518c925, rgb(255, 255, 255))"
+                                style={{ width: "100%", height: "100%" }}
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                )}
                 {isOpen && !hideMenu && (
                     <div
                         ref={menuRef}
@@ -161,6 +163,8 @@ const Header = ({ hideMenu = false }) => {
                             </Button>
                         </div> */}
                         <nav className="mt-4 space-y-4 text-white text-xl bnr-desc">
+                            <Link href="https://docs.dexora.finance/" target='_blank' className="px-4 py-2 hover:text-[#8b95aa] duration-300 ease-in-out transition-all" >Whitepaper</Link>
+
                             <Link href="#about" className="block px-4 py-2" onClick={(e) => handleScroll(e, 'about')}>About</Link>
                             <Link href="#roadmap" className="block px-4 py-2" onClick={(e) => handleScroll(e, 'roadmap')}>Roadmap</Link>
                             <Link href="#Features" className="block px-4 py-2" onClick={(e) => handleScroll(e, 'Features')}>Features</Link>

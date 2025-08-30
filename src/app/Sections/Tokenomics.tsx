@@ -11,10 +11,8 @@ const Tokenomics = () => {
 
     const [copied, setCopied] = useState(false)
     const contractAddress = "0x312219A256864ceeAAD1dD015793F058b30586D3"
-
     const truncateAddress = (address) =>
         `${address.slice(0, 6)}...${address.slice(-4)}`
-
     const handleCopy = () => {
         navigator.clipboard.writeText(contractAddress)
         setCopied(true)
